@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+     font-size: 14px;
+     background:url("Png-transparent-background-logo-only.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+   
+   }
+   .box{
+   
+    background: transparent;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+   }
+
+
+   .box h2{
+     font-size: 34px;
+     line-height: 24px;
+     padding: 30px;
+     text-align: center;
+     color: rgb(169, 9, 9);
+   }
+   .input-name{
+     width: 90%;
+     position: relative;
+     margin: 20px auto;
+     color: white;
+   
+   }
+   .lock{
+      padding: 8px 11px;
+   }
+   .name{
+      width: 45%;
+      padding: 8px 0 8px 40px ;
+   }
+   .input-name span{
+     margin-left: 35px;
+   }
+   
+   .email{
+      width: 45%;
+      padding: 8px 0 8px 40px;
+   }
+   .input-name i{
+     position: absolute;
+     font-size: 18px;
+     color: blue;
+     border-right:1px solid #cccccc ;
+   }
+   .input-name, .name, .email{
+    
+    outline: none;
+    -webkit-transition: all 1.0s ease-in-out;
+   }
+   button{
+     width: 100%;
+     padding: 2px 2px;
+     background-color: blue;
+     color: white;
+     font-size: 25px;
+   }
+   /*.input-name:hover, .name:hover, .email:hover{
+      background-color:#fafafa;
+   }*/
+   .input-name:focus, .name:focus, .email:focus{
+      border: 1px solid blue;
+   }
+ .rad1{
+    font-size: 25px;
+}
+.description{
+  width: 100%;
+  padding: 8px 0 20px 40px;
+  height: 150px;
+  font-size: 1.5rem;
+}
+h3{
+  font-size: 25px;
+  color: red;
+}
